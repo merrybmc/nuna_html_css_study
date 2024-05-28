@@ -1,0 +1,70 @@
+body {
+  padding: 10px;
+}
+
+.container {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box {
+  padding: 50px 150px 50px 50px;
+  border: 50px solid red;
+}
+
+.box.green {
+  border-color: green;
+}
+
+.box.blue {
+  border-color: blue;
+}
+
+.box.none {
+  display: none;
+}
+
+.box.custom {
+  border-color: #ddbb88;
+}
+
+.challenge2 {
+  background-color: #fff;
+  background-image: linear-gradient(
+      90deg,
+      transparent 79px,
+      #abced4 79px,
+      #abced4 81px,
+      transparent 81px
+    ),
+    linear-gradient(#eee 0.1em, transparent 0.1em);
+  background-size: 100% 1.2em;
+  padding-left: 10%;
+}
+
+h1 {
+  color: #9b59b6;
+}
+
+h1:nth-child(1) {
+  text-align: center;
+}
+
+h1::before {
+  content: 'Topic:';
+}
+
+p {
+  font-size: 16px;
+  font-family: Verdana;
+}
+
+.sub-header {
+  color: #2980b9;
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: #2980b9;
+}
