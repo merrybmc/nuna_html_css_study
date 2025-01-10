@@ -1,0 +1,119 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  color: white;
+}
+
+p {
+  color: black;
+}
+
+.div {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+.problem {
+  border: 1px solid black;
+
+  width: 700px;
+  height: 500px;
+  display: flex;
+  gap: 8px;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.p1div {
+  margin-left: auto;
+}
+
+.p2div1 {
+  margin: auto;
+}
+
+.p2div2 {
+  margin-left: auto;
+}
+
+.p3div1 {
+  position: relative;
+
+  width: 300px;
+  height: 300px;
+  background-color: gray;
+
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p3div2 {
+  position: absolute;
+
+  width: 150px;
+  height: 150px;
+  background-color: black;
+
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.p4div1 {
+  position: relative;
+
+  width: 150px;
+  height: 150px;
+  background-color: black;
+}
+
+.p4div2 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: gray;
+
+  left: 75px;
+  top: 75px;
+}
+
+.p5div1 {
+  position: relative;
+  width: 500px;
+  height: 300px;
+
+  background-color: gray;
+
+  margin-top: auto;
+  margin-left: auto;
+}
+
+.p5div2 {
+  position: absolute;
+
+  width: 170px;
+  height: 170px;
+
+  background-color: black;
+
+  right: 0;
+}
+
+.p5div3 {
+  position: absolute;
+
+  width: 170px;
+  height: 170px;
+
+  bottom: 0;
+  background-color: black;
+}
