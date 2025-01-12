@@ -1,3 +1,7 @@
+footer {
+  padding-bottom: 50px;
+}
+
 .footer_content_box {
   display: flex;
   padding-left: 12px;
@@ -18,10 +22,10 @@
 }
 
 .footer_content {
+  min-width: 110px;
   font-size: 16px;
   color: #b3b3b3;
   width: fit-content;
-
   cursor: pointer;
 }
 
