@@ -1,0 +1,44 @@
+.advertise {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  bottom: 0;
+  z-index: 2000;
+  width: 100%;
+  height: 66px;
+  background-color: #8857bd;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.ad_content_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ad_title {
+  font-size: 14px;
+  color: white;
+  font-weight: 700;
+}
+
+.ad_sub {
+  font-size: 16px;
+  color: white;
+}
+
+.ad_button {
+  margin-left: auto;
+  margin-right: 50px;
+  width: fit-content;
+  height: fit-content;
+  padding: 12px 18px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  color: black;
+
+  cursor: pointer;
+}
