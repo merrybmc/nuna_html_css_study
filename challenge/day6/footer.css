@@ -51,3 +51,14 @@ footer {
 .footer_sub_link:hover {
   text-decoration: underline;
 }
+
+.footer_content_wrapper_social {
+  display: flex;
+  align-items: flex-start;
+  margin-left: auto;
+  gap: 8px;
+}
+
+.social_icon {
+  cursor: pointer;
+}
